@@ -9,4 +9,8 @@
     <string name="text_login_fragment">Login with Fragment</string>
     <string name="text_login_activity">Login with Activity</string>
 
+    <string-array name="contry_code">
+        <item>KR - 대한민국</item>
+    </string-array>
+
 </resources>

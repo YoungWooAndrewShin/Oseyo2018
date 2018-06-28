@@ -34,7 +34,7 @@
                 <data android:scheme="@string/fb_login_protocol_scheme" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
         <activity
             android:name=".LoginActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
@@ -47,7 +47,8 @@
         <activity android:name=".PoliceActivity" />
         <activity android:name=".KakaoSignupActivity" />
         <activity android:name=".SampleLoginActivity" />
-        <activity android:name=".RegisterActivity"></activity>
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".AuthorizationActivity"></activity>
     </application>
 
 </manifest>
