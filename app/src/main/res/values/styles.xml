@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="OpenProject_Theme"/>
+
+
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">?android:attr/listDivider</item>
+    </style>
+
+    <style name="OpenProject_Theme" parent="Theme.AppCompat.Light">
+
+        <item name="colorPrimary">#0A7D91</item>
+
+    </style>
+
+</resources>

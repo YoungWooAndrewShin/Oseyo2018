@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">OpenProject</string>
+    <string name="kakao_app_key">1705e1277dbe2d3091bd5021d6a39176</string>
+    <string name="facebook_app_id">171597563533879</string>
+    <string name="fb_login_protocol_scheme">fb171597563533879</string>
+
+
+    <string name="text_for_login_kakao_account">Log in with Kakao</string>
+    <string name="text_login_fragment">Login with Fragment</string>
+    <string name="text_login_activity">Login with Activity</string>
+
+</resources>
