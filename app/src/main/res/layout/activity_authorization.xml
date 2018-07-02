@@ -13,18 +13,21 @@
 
 
         <TextView
+            android:padding="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="@string/authorization_title"/>
 
         <TextView
+            android:padding="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/contry_title"
             />
 
         <Spinner
+            android:padding="10dp"
             android:id="@+id/AuthorizationContrySpinner"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -33,18 +36,21 @@
         </Spinner>
 
         <TextView
+            android:padding="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/text_color"
             android:text="@string/phone_number_title"/>
 
         <EditText
+            android:padding="10dp"
             android:id="@+id/AuthorizationPhoneEdit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             />
 
         <ImageView
+            android:padding="10dp"
             android:id="@+id/AuthorizationAuthBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

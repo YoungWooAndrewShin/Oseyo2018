@@ -33,7 +33,8 @@
         <LinearLayout
             android:layout_margin="10dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
             android:background="#ffffff"
             android:orientation="vertical">
 
@@ -44,9 +45,18 @@
 
             <View style="@style/Divider" />
 
+
+            <TextView
+                android:id="@+id/PoliceServiceAgreementTv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/police_temp_content"/>
+
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
                 android:orientation="horizontal">
 
                 <CheckBox
@@ -67,7 +77,8 @@
         <LinearLayout
             android:layout_margin="10dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
             android:background="#ffffff"
             android:orientation="vertical">
 
@@ -78,9 +89,17 @@
 
             <View style="@style/Divider" />
 
+            <TextView
+                android:id="@+id/PoliceDataTv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/police_temp_content"/>
+
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
                 android:orientation="horizontal">
 
                 <CheckBox
@@ -133,6 +152,7 @@
         </LinearLayout>
 
         <ImageView
+            android:padding="10dp"
             android:id="@+id/PoliceNextBtn"
             android:src="@drawable/next"
             android:layout_width="match_parent"

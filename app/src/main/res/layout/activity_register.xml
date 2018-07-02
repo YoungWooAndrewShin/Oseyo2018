@@ -12,12 +12,14 @@
         android:orientation="vertical">
 
         <TextView
+            android:padding="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/text_color"
             android:text="@string/nickname_title"/>
 
         <EditText
+            android:padding="10dp"
             android:id="@+id/RegisterNicknameEdit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -26,6 +28,7 @@
             />
 
         <TextView
+            android:padding="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/text_color"
@@ -33,6 +36,7 @@
 
 
         <EditText
+            android:padding="10dp"
             android:id="@+id/RegisterEmailEdit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -45,6 +49,7 @@
             android:text="@string/password_title"/>
         
         <EditText
+            android:padding="10dp"
             android:id="@+id/RegisterPasswordEdit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -53,12 +58,14 @@
 
 
         <TextView
+            android:padding="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/text_color"
             android:text="@string/password_confirm_title"/>
 
         <EditText
+            android:padding="10dp"
             android:id="@+id/RegisterPasswordConfirmEdit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -66,12 +73,14 @@
             android:hint="@string/request_password_confirm"/>
 
         <TextView
+            android:padding="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/text_color"
             android:text="@string/gender_choice_title"/>
 
         <RadioGroup
+            android:padding="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
@@ -93,6 +102,7 @@
         </RadioGroup>
 
         <ImageView
+            android:padding="10dp"
             android:id="@+id/RegisterRegisterBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

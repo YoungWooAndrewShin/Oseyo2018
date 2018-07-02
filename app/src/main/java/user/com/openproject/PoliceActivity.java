@@ -3,13 +3,17 @@ package user.com.openproject;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.method.ScrollingMovementMethod;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 public class PoliceActivity extends AppCompatActivity {
 
     ImageView mNextBtn;
+    TextView mServiceAgreementTv;
+    TextView mDataPoliceTv;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,5 +31,10 @@ public class PoliceActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
+        mServiceAgreementTv = findViewById(R.id.PoliceServiceAgreementTv);
+        mServiceAgreementTv.setMovementMethod(new ScrollingMovementMethod());
+        mDataPoliceTv = findViewById(R.id.PoliceDataTv);
+        mDataPoliceTv.setMovementMethod(new ScrollingMovementMethod());
     }
 }
