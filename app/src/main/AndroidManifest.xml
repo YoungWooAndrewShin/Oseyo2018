@@ -48,7 +48,8 @@
         <activity android:name=".KakaoSignupActivity" />
         <activity android:name=".SampleLoginActivity" />
         <activity android:name=".RegisterActivity" />
-        <activity android:name=".AuthorizationActivity"></activity>
+        <activity android:name=".AuthorizationActivity" />
+        <activity android:name=".AuthorizationConfirmActivity"></activity>
     </application>
 
 </manifest>

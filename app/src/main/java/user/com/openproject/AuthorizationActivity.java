@@ -1,5 +1,6 @@
 package user.com.openproject;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -48,7 +49,8 @@ public class AuthorizationActivity extends AppCompatActivity {
         mAuthBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(AuthorizationActivity.this, "휴대폰 본인인증", Toast.LENGTH_SHORT).show();
+                Intent i = new Intent(AuthorizationActivity.this, AuthorizationConfirmActivity.class);
+                startActivity(i);
             }
         });
     }
