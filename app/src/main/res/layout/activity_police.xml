@@ -21,16 +21,14 @@
             android:layout_height="wrap_content"
             android:textSize="15dp"
             android:textStyle="bold"
-            android:text="Open을 사용하려면 약관을 확인 하세요."/>
+            android:text="@string/police_title"/>
 
         <TextView
             android:layout_margin="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="12dp"
-            android:text="Open 약관에 동의하고 데이터 정책을 읽고 이해하신 것으로 간주됩
-니다. open에서 SNS알림을 받을 수 있으며 언제든지 수신을 거부 할
-수 있습니다. "/>
+            android:text="@string/police_content"/>
 
         <LinearLayout
             android:layout_margin="10dp"
@@ -42,7 +40,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="서비스 약관"/>
+                android:text="@string/service_agreement_title"/>
 
             <View style="@style/Divider" />
 
@@ -55,12 +53,12 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="동의"/>
+                    android:text="@string/agree"/>
                 <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="동의하지 않음"/>
+                    android:text="@string/disagree"/>
 
             </LinearLayout>
 
@@ -76,7 +74,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="데이터 정책"/>
+                android:text="@string/data_police_title"/>
 
             <View style="@style/Divider" />
 
@@ -89,12 +87,12 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="동의"/>
+                    android:text="@string/agree"/>
                 <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="동의하지 않음"/>
+                    android:text="@string/disagree"/>
 
             </LinearLayout>
 
@@ -110,7 +108,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="위치 도구"/>
+                android:text="@string/location_tools_title"/>
 
             <View style="@style/Divider" />
 
@@ -123,12 +121,12 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="동의"/>
+                    android:text="@string/agree"/>
                 <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="동의하지 않음"/>
+                    android:text="@string/disagree"/>
 
             </LinearLayout>
 

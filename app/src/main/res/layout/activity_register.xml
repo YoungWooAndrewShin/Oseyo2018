@@ -14,63 +14,62 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="#9E9E9E"
-            android:text="닉네임"/>
+            android:textColor="@color/text_color"
+            android:text="@string/nickname_title"/>
 
         <EditText
             android:id="@+id/RegisterNicknameEdit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColorHint="#9E9E9E"
-            android:hint="닉네임을 입력해 주세요"
+            android:textColorHint="@color/text_color"
+            android:hint="@string/request_nickname"
             />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="#9E9E9E"
-            android:text="이메일"/>
+            android:textColor="@color/text_color"
+            android:text="@string/email_title"/>
 
 
         <EditText
             android:id="@+id/RegisterEmailEdit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="이메일을 입력해 주세요"/>
+            android:hint="@string/request_email"/>
         
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="#9E9E9E"
-            android:text="비밀번호"/>
+            android:textColor="@color/text_color"
+            android:text="@string/password_title"/>
         
         <EditText
             android:id="@+id/RegisterPasswordEdit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
-            android:hint="비밀번호를 입력해 주세요"/>
+            android:hint="@string/request_password"/>
 
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="#9E9E9E"
-            android:text="비밀번호 확인"/>
+            android:textColor="@color/text_color"
+            android:text="@string/password_confirm_title"/>
 
         <EditText
             android:id="@+id/RegisterPasswordConfirmEdit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
-            android:hint="비밀번호를 다시 한번 입력해 주세요"/>
-
+            android:hint="@string/request_password_confirm"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="#9E9E9E"
-            android:text="성별확인"/>
+            android:textColor="@color/text_color"
+            android:text="@string/gender_choice_title"/>
 
         <RadioGroup
             android:layout_width="match_parent"
@@ -81,14 +80,14 @@
                 android:id="@+id/RegisterMaleRadio"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="남성"
+                android:text="@string/gender_male"
                 android:layout_weight="1"
                 />
             <RadioButton
                 android:id="@+id/RegisterFemaleRadio"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="여성"
+                android:text="@string/gender_female"
                 android:layout_weight="1"/>
 
         </RadioGroup>

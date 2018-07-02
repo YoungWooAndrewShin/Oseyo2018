@@ -10,14 +10,9 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="user.com.openproject.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
-
     <Button
         android:id="@+id/MainLogoutBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="로그아웃"/>
+        android:text="@string/logout"/>
 </RelativeLayout>

@@ -16,12 +16,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="휴대폰 본인인증을 해주세요"/>
+            android:text="@string/authorization_title"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="국가"
+            android:text="@string/contry_title"
             />
 
         <Spinner
@@ -35,8 +35,8 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="#9E9E9E"
-            android:text="휴대폰 번호"/>
+            android:textColor="@color/text_color"
+            android:text="@string/phone_number_title"/>
 
         <EditText
             android:id="@+id/AuthorizationPhoneEdit"

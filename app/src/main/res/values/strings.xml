@@ -4,10 +4,44 @@
     <string name="facebook_app_id">171597563533879</string>
     <string name="fb_login_protocol_scheme">fb171597563533879</string>
 
-
     <string name="text_for_login_kakao_account">Log in with Kakao</string>
     <string name="text_login_fragment">Login with Fragment</string>
     <string name="text_login_activity">Login with Activity</string>
+
+    <string name="logout">로그아웃</string>
+    <string name="service_title">사장님을 위한 사장님에 의한 사장님의 서비스</string>
+    <string name="request_email_or_phone">이메일 또는 휴대폰 번호 입력</string>
+    <string name="or">또는</string>
+    <string name="change_password">비밀번호 재설정</string>
+
+    <string name="police_title">Open을 사용하려면 약관을 확인 하세요</string>
+    <string name="police_content">Open 약관에 동의하고 데이터 정책을 읽고 이해하신 것으로 간주됩
+니다. open에서 SNS알림을 받을 수 있으며 언제든지 수신을 거부 할
+수 있습니다.</string>
+    <string name="service_agreement_title">서비스 약관</string>
+    <string name="agree">동의</string>
+    <string name="disagree">동의하지 않음</string>
+    <string name="data_police_title">데이터 정책</string>
+    <string name="location_tools_title">위치 도구</string>
+    <string name="nickname_title">닉네임</string>
+    <string name="request_nickname">닉네임을 입력해 주세요</string>
+    <string name="email_title">이메일</string>
+    <string name="request_email">이메일을 입력해 주세요</string>
+    <string name="password_title">비밀번호</string>
+    <string name="request_password">비밀번호를 입력해 주세요</string>
+    <string name="password_confirm_title">비밀번호 확인</string>
+    <string name="request_password_confirm">비밀번호를 다시 한번 입력해 주세요</string>
+    <string name="gender_choice_title">성별확인</string>
+    <string name="gender_male">남성</string>
+    <string name="gender_female">여성</string>
+
+    <string name="authorization_title">휴대폰 본인인증을 해주세요</string>
+    <string name="contry_title">국가</string>
+    <string name="phone_number_title">휴대폰 번호</string>
+
+    <string name="request_authorization_comfirm_number">휴대폰 인증번호를 입력해 주세요</string>
+    <string name="authorization_comfirm_number_title">인증번호</string>
+    <string name="authorization_confirm_number_hint">0000</string>
 
     <string-array name="contry_code">
         <item>KR - 대한민국</item>
