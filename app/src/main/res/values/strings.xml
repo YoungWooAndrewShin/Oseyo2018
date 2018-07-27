@@ -95,6 +95,9 @@ Dublin 2, Ireland</string>
     <string name="disagree">동의하지 않음</string>
     <string name="data_police_title">데이터 정책</string>
     <string name="location_tools_title">위치 도구</string>
+    <string name="third_party_tool_title">제 3자 도구</string>
+    <string name="all_agree_title">전체 동의</string>
+    <string name="view_use_agreement">+약관보기</string>
     <string name="nickname_title">닉네임</string>
     <string name="request_nickname">닉네임을 입력해 주세요</string>
     <string name="email_title">이메일</string>
@@ -114,6 +117,9 @@ Dublin 2, Ireland</string>
     <string name="request_authorization_comfirm_number">휴대폰 인증번호를 입력해 주세요</string>
     <string name="authorization_comfirm_number_title">인증번호</string>
     <string name="authorization_confirm_number_hint">0000</string>
+    
+    <string name="request_company_number">사업자 등록 번호를 입력해 주세요</string>
+    <string name="search_title">검색</string>
 
     <string-array name="contry_code">
         <item>KR - 대한민국</item>

@@ -1,3 +1,4 @@
+//noinspection GradleCompatible
 apply plugin: 'com.android.application'
 
 android {
@@ -22,14 +23,18 @@ android {
 
 dependencies {
     implementation 'com.android.support.constraint:constraint-layout:1.1.2'
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile 'com.android.support:appcompat-v7:27.+'
-    compile 'com.mcxiaoke.volley:library-aar:1.0.0'
-    testCompile 'junit:junit:4.12'
-    compile group: 'com.kakao.sdk', name: 'usermgmt', version: project.KAKAO_SDK_VERSION
-    compile 'com.facebook.android:facebook-android-sdk:[4,5)'
-    compile 'com.user.openproject:naveridlogin_android_sdk_4.2.0:4.2.0@aar'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:27.+'
+    implementation 'com.mcxiaoke.volley:library-aar:1.0.0'
+    testImplementation 'junit:junit:4.12'
+    implementation group: 'com.kakao.sdk', name: 'usermgmt', version: project.KAKAO_SDK_VERSION
+    implementation 'com.facebook.android:facebook-android-sdk:[4,5)'
+    implementation 'com.user.openproject:naveridlogin_android_sdk_4.2.0:4.2.0@aar'
+    implementation group: 'javax.xml.rpc', name: 'javax.xml.rpc-api', version: '1.1.1'
+    implementation group: 'org.apache.axis', name: 'axis', version: '1.4'
+    implementation group: 'org.jboss.spec.javax.rmi', name: 'jboss-rmi-api_1.0_spec', version: '1.0.6.Final'
 }
