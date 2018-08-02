@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="contry_code">
+        <item>KR - 대한민국</item>
+    </string-array>
+
+    <string-array name="store_main_category">
+        <item>음식</item>
+        <item>생활서비스</item>
+        <item>소매</item>
+        <item>관광/여가/오락</item>
+        <item>스포츠</item>
+        <item>학문/교육</item>
+        <item>숙박</item>
+        <item>부동산</item>
+    </string-array>
+
+    <string-array name="store_middle_category">
+        <item>한식</item>
+        <item>중식</item>
+        <item>일식/수산물</item>
+        <item>분식</item>
+        <item>닭/오리요리</item>
+        <item>양식</item>
+        <item>패스트푸드</item>
+        <item>제과제빵케익</item>
+        <item>유흥주점</item>
+        <item>별식/퓨전요리</item>
+        <item>커피점/카페</item>
+        <item>음식배달서비스</item>
+    </string-array>
+
+    <string-array name="store_small_category">
+        <item>갈비/삼겹살</item>
+        <item>냉면집</item>
+        <item>보리밥전문</item>
+        <item>쌈밥전문</item>
+        <item>파전전문</item>
+        <item>황태전문</item>
+        <item>곱창/양구이전문</item>
+        <item>돌솥/비빔밥전문점</item>
+        <item>부대찌개/섞어찌개</item>
+        <item>재첩국전문</item>
+        <item>한식/백반/한정식</item>
+        <item>기사식당</item>
+    </string-array>
+
+</resources>

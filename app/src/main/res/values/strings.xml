@@ -117,12 +117,21 @@ Dublin 2, Ireland</string>
     <string name="request_authorization_comfirm_number">휴대폰 인증번호를 입력해 주세요</string>
     <string name="authorization_comfirm_number_title">인증번호</string>
     <string name="authorization_confirm_number_hint">0000</string>
-    
+
     <string name="request_company_number">사업자 등록 번호를 입력해 주세요</string>
     <string name="search_title">검색</string>
 
-    <string-array name="contry_code">
-        <item>KR - 대한민국</item>
-    </string-array>
+    <string name="store_information_title">힘내세요! 마지막 페이지입니다!</string>
+    <string name="store_information_name_title">대표 매장명</string>
+    <string name="request_store_name">매장명을 입력해주세요.</string>
+    <string name="request_store_sector">업종</string>
+    <string name="store_information_main_category">대분류</string>
+    <string name="store_information_middle_category">중분류</string>
+    <string name="store_information_small_category">소분류</string>
+    <string name="store_information_address_title">매장주소</string>
+    <string name="request_address">매장 주소를 입력해주세요</string>
+    <string name="store_information_address_detail_title">상세주소</string>
+    <string name="request_address_detail">상세주소를 입력해주세요</string>
+
 
 </resources>

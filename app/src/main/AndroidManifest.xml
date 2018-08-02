@@ -50,7 +50,12 @@
         <activity android:name=".RegisterActivity" />
         <activity android:name=".AuthorizationActivity" />
         <activity android:name=".AuthorizationConfirmActivity" />
-        <activity android:name=".CompanyAuthorizationActivity"></activity>
+        <activity android:name=".CompanyAuthorizationActivity" />
+        <activity android:name=".StoreInformationActivity" />
+        <activity android:name=".StoreCategoryActivity" />
+        <activity android:name=".DaumWebViewActivity" />
+        <activity android:name=".InputAddressActivity" />
+        <activity android:name=".WebViewActivity"></activity>
     </application>
 
 </manifest>

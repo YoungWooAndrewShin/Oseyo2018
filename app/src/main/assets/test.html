@@ -1,0 +1,15 @@
+<html>
+<head></head>
+<body>
+<script type="text/javascript">
+    function showToast(){
+        var message = document.getElementById('toast_input').value;
+        alert(message);
+        window.Android.showToast(message);
+    }
+    </script>
+<input type="text" id="toast_input" value="message"/>
+<Button onclick="javascript:showToast()">Show Toast</Button>
+
+</body>
+</html>

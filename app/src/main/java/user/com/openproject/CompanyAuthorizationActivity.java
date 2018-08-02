@@ -1,5 +1,6 @@
 package user.com.openproject;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -17,6 +18,7 @@ public class CompanyAuthorizationActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_company_authorization);
+        setRes();
     }
 
     private void setRes() {
@@ -26,8 +28,8 @@ public class CompanyAuthorizationActivity extends AppCompatActivity {
         mNextBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //Intent i = new Intent(CompanyAuthorizationActivity.this, )
-                //startActivity(i);
+                Intent i = new Intent(CompanyAuthorizationActivity.this, StoreInformationActivity.class);
+                startActivity(i);
             }
         });
     }
