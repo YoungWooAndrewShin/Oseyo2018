@@ -80,7 +80,6 @@ public class WebViewActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_web_view);
 
-        daum_result = findViewById(R.id.daum_result);
         browser = (WebView) findViewById(R.id.webView);
         init_webView();
     }
@@ -94,7 +93,6 @@ public class WebViewActivity extends AppCompatActivity {
             @Override
             public void onPageFinished(WebView view, String url) {
                 browser.loadUrl("javascript:sample6_execDaumPostcode();");
-                Toast.makeText(WebViewActivity.this, "init", Toast.LENGTH_SHORT).show();
             }
         });
         browser.loadUrl("http://oseyo2018.000webhostapp.com/address.html");

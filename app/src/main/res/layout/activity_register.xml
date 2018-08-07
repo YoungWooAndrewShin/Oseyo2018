@@ -101,13 +101,30 @@
 
         </RadioGroup>
 
-        <ImageView
-            android:padding="10dp"
-            android:id="@+id/RegisterRegisterBtn"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:src="@drawable/next"
-            />
+            android:orientation="vertical">
+
+            <ImageView
+                android:padding="10dp"
+                android:id="@+id/RegisterRegisterPreBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/next"
+                />
+
+            <ImageView
+                android:padding="10dp"
+                android:id="@+id/RegisterRegisterBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/next"
+                />
+
+        </LinearLayout>
 
 
     </LinearLayout>

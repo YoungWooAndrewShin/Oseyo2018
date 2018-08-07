@@ -1,25 +1,18 @@
 package user.com.openproject;
 
-import android.content.Context;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.RadioButton;
-import android.widget.Toast;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.InputStream;
 
 public class RegisterActivity extends AppCompatActivity {
 
@@ -32,6 +25,7 @@ public class RegisterActivity extends AppCompatActivity {
     RadioButton mFemaleRadio;
 
     ImageView mRegisterBtn;
+    ImageView mRegisterPreBtn;
 
 
     @Override
@@ -63,6 +57,21 @@ public class RegisterActivity extends AppCompatActivity {
                 }
 
                 Intent i = new Intent(RegisterActivity.this, AuthorizationActivity.class);
+                startActivity(i);
+            }
+        });
+
+        mRegisterPreBtn = findViewById(R.id.RegisterRegisterPreBtn);
+        mRegisterPreBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                try {
+                    saveFile();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+
+                Intent i = new Intent(RegisterActivity.this, StoreInformationPreActivity.class);
                 startActivity(i);
             }
         });

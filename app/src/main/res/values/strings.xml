@@ -133,5 +133,10 @@ Dublin 2, Ireland</string>
     <string name="store_information_address_detail_title">상세주소</string>
     <string name="request_address_detail">상세주소를 입력해주세요</string>
 
-
+    <string name="store_information_pre_sector_title">예상 업종</string>
+    <string name="store_information_pre_location_title">예상 매장위치</string>
+    <string name="request_store_information_pre_location">구˙동 을 입력해주세요</string>
+    <string name="store_information_pre_date_title">예상 창업달을 적어주세요</string>
+    <string name="request_store_information_pre_date">예상 창업달 입력</string>
+    
 </resources>

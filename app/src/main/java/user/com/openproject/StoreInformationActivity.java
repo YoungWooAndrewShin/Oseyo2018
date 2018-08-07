@@ -138,12 +138,21 @@ public class StoreInformationActivity extends AppCompatActivity implements View.
             if(resultCode == GlobalVariable.REGISTER_STORE_CATEGORY_RESULT_CODE) {
                 int position = data.getIntExtra(POSITION, 0);
 
+                Intent i;
                 switch (mCurrentCategory) {
                     case MAIN:
                         mMainCategory.setText(getResources().getStringArray(R.array.store_main_category)[position]);
+                        i = new Intent(StoreInformationActivity.this, StoreCategoryActivity.class);
+                        i.putExtra(CATEGORY,MIDDLE);
+                        mCurrentCategory = CATEGORY_KIND.MIDDLE;
+                        startActivityForResult(i, GlobalVariable.REGISTER_STORE_CATEGORY_REQUEST_CODE);
                         break;
                     case MIDDLE:
                         mMiddleCategory.setText(getResources().getStringArray(R.array.store_middle_category)[position]);
+                        i = new Intent(StoreInformationActivity.this, StoreCategoryActivity.class);
+                        i.putExtra(CATEGORY,SMALL);
+                        mCurrentCategory = CATEGORY_KIND.SMALL;
+                        startActivityForResult(i, GlobalVariable.REGISTER_STORE_CATEGORY_REQUEST_CODE);
                         break;
                     case SMALL:
                         mSmallCategory.setText(getResources().getStringArray(R.array.store_small_category)[position]);
@@ -158,8 +167,6 @@ public class StoreInformationActivity extends AppCompatActivity implements View.
                 mAddress.setText(address);
             }
         }
-
-
     }
 
     @Override

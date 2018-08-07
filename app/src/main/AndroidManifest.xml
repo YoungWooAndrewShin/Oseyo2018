@@ -55,7 +55,8 @@
         <activity android:name=".StoreCategoryActivity" />
         <activity android:name=".DaumWebViewActivity" />
         <activity android:name=".InputAddressActivity" />
-        <activity android:name=".WebViewActivity"></activity>
+        <activity android:name=".WebViewActivity" />
+        <activity android:name=".StoreInformationPreActivity"></activity>
     </application>
 
 </manifest>
